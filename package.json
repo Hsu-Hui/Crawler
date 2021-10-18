@@ -1,0 +1,27 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "- JavaScript excels at its speed, as Node.js is based on a powerful Chrome V8 engine. Its event-based model and non-blocking Input/Output (I/O) optimizes memory usage; thus, Node.js can efficiently handle many concurrent web page requests at a time.\r -  Libraries written to be run natively on Node.js might be quite fast and help you improve the overall development workflow. For example, Gulp can assist in task automation, while Cheerio aids in working with asynchronous JavaScript. Other instances of such libraries include Async, Express, and Nodemailer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hsu-Hui/Crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hsu-Hui/Crawler/issues"
+  },
+  "homepage": "https://github.com/Hsu-Hui/Crawler#readme",
+  "dependencies": {
+    "async": "^3.2.1",
+    "axios": "^0.23.0",
+    "axios-cookiejar-support": "^2.0.3",
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "tough-cookie": "^4.0.0"
+  }
+}
